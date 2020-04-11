@@ -3,11 +3,14 @@
 *Codebase for this article on beginning functional programming using ZIO* 
 
 A really Simple Todo App built functionally using ZIO and Akka HTTP to connect to a Mysql Database.
-The codebase is quite verbose and riddled with comments to help the newbie understand the thought process
+The codebase is quite verbose and riddled with comments to help the newbie understand the thought process :)
 
-## Running the project
-**all commands are run from the root of the project**
-## Starting the Database
+## USAGE
+
+### From The command Line
+**All commands are run from the root of the project**
+
+### Starting the Database
 `docker-compose -f ./scripts/docker/docker-compose.yml up` 
 
 Once the database is up and running, run this script to create the database and tables as well as insert mock data. 
@@ -19,6 +22,9 @@ Once the database is up and running, run this script to create the database and 
 to specify port to run on, you can pass the port argument to sbt 
 
 `sbt "run <port_number>"`
+
+
+*default port is 8082*
 
 ## API ROUTES
 `GET -> /todo`      
