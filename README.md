@@ -1,6 +1,6 @@
 # ZIO-AKKAHTTP
 
-*Codebase for this article on beginning functional programming using ZIO* 
+*Codebase for this article on [beginning functional programming using ZIO](https://medium.com/@awesomeorji/functional-programming-with-zio-and-akka-http-1d388023d946)* 
 
 A really Simple Todo App built functionally using ZIO and Akka HTTP to connect to a Mysql Database.
 The codebase is quite verbose and riddled with comments to help the newbie understand the thought process :)
